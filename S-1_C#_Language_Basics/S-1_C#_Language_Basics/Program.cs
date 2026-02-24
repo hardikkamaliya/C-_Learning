@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
+using System.Xml;
 
 namespace S_1_C__Language_Basics
 {
-    internal class Program
+    class Program
     {
-        static void Main()
+        static void Main(string[]args)
         {
             // Printing statement in one line 
 
@@ -63,7 +63,32 @@ namespace S_1_C__Language_Basics
 
             //======= if, if-else, else-if, Nested-if ===========
 
+            //=========== switch-case statements ============
 
+            //============ while, do while loop =========
+
+            //============ for loop ==============
+
+            //============= break statement ==============
+
+            //============= continue statement ==============
+
+            //============= nested for loop ==============
+
+            //============= goto statement ==============
+
+            //Console.WriteLine("USA");
+            //Console.WriteLine("Washington D.C.");
+            //Console.WriteLine("South Africa");
+            //goto myLable;
+            //Console.WriteLine("Indian");
+            //Console.WriteLine("Canada");
+            //Console.WriteLine("Australiya");
+            //myLable:
+            //Console.WriteLine("Japan");
+            //Console.WriteLine("Russia");
+
+            //generally use for jumping forward, becuase in case of backward it became loop
             Console.ReadKey();
 
         }
